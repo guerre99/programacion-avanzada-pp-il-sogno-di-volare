@@ -30,6 +30,8 @@ const militaryHelicopter = [
     'assets/helicoptero-militar-5.jpg'
 ];
 
+/*---------------------------------------------------------------------------------*/
+
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min) ) + min;
   }
@@ -60,6 +62,8 @@ class Gallery {
     }
 }
 
+/*---------------------------------------------------------------------------------*/
+
 class Painter {
     constructor() {
         this.createGallery()
@@ -89,6 +93,8 @@ class Painter {
         })
     }
 }
+
+/*---------------------------------------------------------------------------------*/
 
 const aircrafts = new Gallery(civilAircrafts, militaryAircrafts);
 const helicopters = new Gallery(civilHelicopters, militaryHelicopter);
